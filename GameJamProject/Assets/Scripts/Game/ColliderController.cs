@@ -55,6 +55,7 @@ public class ColliderController : MonoBehaviour
                 StartCoroutine(MainIE());
                 animator.enabled = true;
                 Camera.main.GetComponent<Animator>().enabled = true;
+                GameObject.Find("Ani").GetComponent<Animator>().enabled = true;
             }
         }
 
@@ -145,10 +146,8 @@ public class ColliderController : MonoBehaviour
     private IEnumerator MainIE()
     {
         //先移动
-        print("移动");
         yield return StartCoroutine(ShapeMoveToCenter(centerPos));
         //再渐变
-        print("渐变");
         yield return StartCoroutine(FadeOutShapes());
     }
 }
