@@ -60,13 +60,13 @@
     <Analyzer Include="E:\Unity\2022.3.34f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Clipper2\Clipper.Engine.cs" />
     <Compile Include="Assets\Plugins\Clipper2\Clipper.cs" />
     <Compile Include="Assets\Plugins\Clipper2\HashCode.cs" />
     <Compile Include="Assets\Plugins\Clipper2\obj\Debug\netstandard2.0\Clipper2Lib.AssemblyInfo.cs" />
     <Compile Include="Assets\Plugins\Clipper2\Clipper.RectClip.cs" />
-    <Compile Include="Assets\Plugins\Clipper2\Clipper.Offset.cs" />
     <Compile Include="Assets\Plugins\Clipper2\Clipper.Minkowski.cs" />
+    <Compile Include="Assets\Plugins\Clipper2\Clipper.Engine.cs" />
+    <Compile Include="Assets\Plugins\Clipper2\Clipper.Offset.cs" />
     <Compile Include="Assets\Plugins\Clipper2\Clipper.Core.cs" />
   </ItemGroup>
   <ItemGroup>
