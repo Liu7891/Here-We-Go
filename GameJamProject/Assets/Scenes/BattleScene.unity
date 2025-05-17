@@ -657,7 +657,7 @@ Transform:
   m_GameObject: {fileID: 217879089}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4, y: 0, z: -8.34}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -767,11 +767,11 @@ MonoBehaviour:
   enemy2Time: 2
   enemy3Time: 10
   firstEnemy1Num: 6
-  secondEnemy1Num: 3
+  secondEnemy1Num: 8
   thirdEnemy1Num: 5
-  secondEnemy2Num: 2
-  thirdEnemy2Num: 3
-  enemy3Num: 3
+  secondEnemy2Num: 3
+  thirdEnemy2Num: 5
+  enemy3Num: 4
   firstTime: 15
   secondTime: 25
   thirdTime: 40
@@ -1559,7 +1559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1260345260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1828,7 +1828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1595923481
 SpriteRenderer:
   m_ObjectHideFlags: 0

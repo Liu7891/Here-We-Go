@@ -26,7 +26,7 @@ public class StartController : MonoBehaviour
     void Update()
     {
         //离开准备阶段开始游戏（等待UI连接）
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Return))
         {
             GameDataMgr.instance.isBattleStart = true;
             StartCoroutine(StartEnemy());

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CoreController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class CoreController : MonoBehaviour
         {
             //游戏结束
             print("GAMEOVER");
+            SceneManager.LoadScene(0);
         }
     }
 }

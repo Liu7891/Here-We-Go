@@ -6,6 +6,8 @@ using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
+
 
 public class EnemyMgr : MonoBehaviour
 {
@@ -105,6 +107,7 @@ public class EnemyMgr : MonoBehaviour
             gameObject.SetActive(false);
             //通关
             print("通关");
+            SceneManager.LoadScene(2);
         }
     }
     #region 生成敌人的协程

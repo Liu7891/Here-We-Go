@@ -5,9 +5,7 @@ using UnityEngine;
 public class MouseController : MonoBehaviour
 {
     //左边透明度值
-    public byte leftAlpha = 60;
-    //右边透明度值
-    public byte rightAlpha = 40;
+    public byte leftAlpha = 80;
 
     private Camera cam;
     private Vector2 offSet;
@@ -77,11 +75,6 @@ public class MouseController : MonoBehaviour
                 c.a = leftAlpha;
                 //还原解谜大小与方向
                 target.transform.localScale = new Vector3(1, 1, 1);
-                target.transform.rotation = Quaternion.identity;
-            }
-            else
-            {
-                c.a = rightAlpha;
             }
             sr.color = c;
         }

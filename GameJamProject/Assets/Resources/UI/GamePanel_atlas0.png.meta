@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:GameJamProject/Assets/Resources/UI/GamePanel_atlas0.png.meta
 guid: ba8edf8f57bb6e447945ac1d29680b7b
+========
+guid: 6bc37f1c5fb0603428d5b71be9806deb
+>>>>>>>> Stashed changes:GameJamProject/Assets/Art/mark.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
